@@ -38,7 +38,7 @@ with st.form("survey_form"):
         #    - Don't forget to add a newline character '\n' at the end.
         file_path='data.csv'
         new_data=pd.DataFrame({"Hours":[hours_input]})
-        new_data.to_csv(file_path,mode = "a", header=not, index=False)
+        new_data.to_csv(file_path,mode = "a", header=not file_exists, index=False)
         st.success("Your data has been submitted!")
 
 
