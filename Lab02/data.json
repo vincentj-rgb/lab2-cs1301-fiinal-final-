@@ -1,0 +1,29 @@
+{
+    "chart_title": "Class Difficulty",
+    "data_points": [
+        {
+            "label": "CS 1301",
+            "value": 6
+        },
+        {
+            "label": "MATH 1553",
+            "value": 7
+        },
+        {
+            "label": "PHYS 2211",
+            "value": 8
+        },
+  	{
+            "label": "INTA 1200",
+            "value": 3
+        },
+  	{
+            "label": "ECON 2106",
+            "value": 8
+        },
+  	{
+            "label": "GT 1000",
+            "value": 1
+        }
+    ]
+}
