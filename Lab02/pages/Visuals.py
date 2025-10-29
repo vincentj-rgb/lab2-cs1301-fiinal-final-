@@ -20,13 +20,15 @@ st.write("This page displays graphs based on the collected data.")
 # DATA LOADING
 # A crucial step is to load the data from the files.
 # It's important to add error handling to prevent the app from crashing if a file is empty or missing.
-
+lab_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+csv_path = os.path.join(lab_dir, "data.csv")
+json_path = os.path.join(lab_dir, "data.json")
 
 # TO DO:
 # 1. Load the data from 'data.csv' into a pandas DataFrame.
 #    - Use a 'try-except' block or 'os.path.exists' to handle cases where the file doesn't exist.
 try:
-    all_my_hours_df = pd.read_csv("data.csv")
+    all_my_hours_df = pd.read_csv(csv_path)
 except Exception as e:
     st.stop()
     #I have it read the data from the csv file
