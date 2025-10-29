@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # WELCOME PAGE TITLE
-st.title("Welcome to the Data Dashboard! 📊")
+st.title("Welcome to the Data Dashboard! 📊 DISCLAIMER: IT DOESNT TAKE IN THE DATA FROM THE FILE FOR SOME REASON AND I GAVE UP, PLEASE USE THE ZIP FILE")
 
 # INTRODUCTORY TEXT
 st.write("""
